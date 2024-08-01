@@ -1,0 +1,33 @@
+/* src/Books.css */
+.books-container {
+    padding: 20px;
+}
+
+.books-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.books-list-header,
+.book-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 3px solid #00ffbb;
+}
+
+.books-list-header {
+    font-weight: bold;
+}
+
+.books-list-header span,
+.book-item span {
+    flex: 1;
+    text-align: center;
+}
+
+.books-list-header span:last-child,
+.book-item span:last-child,
+.book-item button {
+    flex: 1;
+}
